@@ -1,0 +1,132 @@
+    .hero {
+      width: 100%;
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hero > img {
+      width: 41.3vw;
+      height: 41.3vw;
+    }
+
+    .heroText {
+      width: 35.5vw;
+    }
+
+    .heroHeading {
+      display: flex;
+      align-items: center;
+    }
+
+    .heroHeading > img {
+      width: 7vw;
+      height: 7vw;
+    }
+
+    .heroHeading > h1 {
+      width: 25vw;
+      font-family: Poppins, sans-serif;
+      font-size: 4vw;
+      font-weight: 600;
+      line-height: 5vw;
+    }
+
+    .heroText > p {
+      font-family: Poppins, sans-serif;
+      font-size: 1.5vw;
+      font-weight: 400;
+      line-height: 2.25vw;
+      color: #8f95a5;
+      margin-top: 2.5vw;
+      margin-bottom: 3.8vw;
+    }
+
+    .heroText > button {
+      padding: 2vw 7.3vw;
+      font-family: Poppins, sans-serif;
+      font-size: 2.4vw;
+      font-weight: 400;
+      line-height: 3.3vw;
+      background-color: #263238;
+      color: white;
+      border-radius: 1vw;
+      border: none;
+    }
+
+    @media only screen and (max-width: 575px) {
+      .hero {
+        flex-direction: column-reverse;
+        margin-top: 3.6vw;
+      }
+
+      .hero > img {
+        width: 73.3vw;
+        height: 73.3vw;
+      }
+
+      .heroText {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .heroHeading > h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 5.8vw;
+        line-height: 7.8vw;
+      }
+
+      .heroText > p {
+        text-align: center;
+        font-size: 2.7vw;
+        line-height: 4.1vw;
+      }
+
+      .heroHeading > img {
+        display: none;
+      }
+
+      .heroText > button {
+        padding: 4.1vw 17.7vw;
+        font-size: 3.1vw;
+        line-height: 4.7vw;
+      }
+
+      .br {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 320px) {
+      .heroHeading > h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 7.5vw;
+        line-height: 11.25vw;
+      }
+
+      .heroText > p {
+        text-align: center;
+        font-size: 4.3vw;
+        line-height: 6.5vw;
+      }
+
+      .heroText > button {
+        width: 100%;
+        height: 18.75vw;
+        padding: 0;
+        font-size: 5vw;
+        line-height: 7.5vw;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .heroText > button {
+        border-radius: 5px;
+      }
+    }

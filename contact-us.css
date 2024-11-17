@@ -1,0 +1,172 @@
+.contact-us {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 8vw;
+}
+.contact-us-img > img {
+  width: calc(477 / 16 * 1vw);
+  height: calc(489 / 16 * 1vw);
+
+}
+.contact-us-img {
+  width: calc(447 / 16 * 1vw);
+  height: auto;
+}
+.contact-us-text {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: calc(489 / 16 * 1vw);
+}
+.contact-us-text h1 {
+  margin-left: calc(-300 / 16 * 1vw);
+  text-align: start;
+  font-family: Poppins, sans-serif;
+  font-size: calc(48 / 16 * 1vw);
+  font-weight: 600;
+  line-height: calc(80 / 16 * 1vw);
+}
+.contact-us-text p {
+  margin-left: calc(95 / 16 * 1vw);
+  font-family: Poppins, sans-serif;
+  width: calc(650 / 16 * 1vw);
+  font-size: calc(20 / 16 * 1vw);
+  font-weight: 400;
+  line-height: calc(30 / 16 * 1vw);
+}
+.contact-us-btn input {
+  padding-left: calc(33 / 16 * 1vw);
+  font-family: Poppins, sans-serif;
+  width: calc(400 / 16 * 1vw);
+  height: auto;
+  border-radius: calc(10 / 16 * 1vw);
+}
+.contact-us-btn button {
+  padding: calc(25 / 16 * 1vw) calc(82 / 16 * 1vw);
+  color: white;
+  border-radius: calc(10 / 16 * 1vw);
+  background: #000;
+  font-family: Poppins, sans-serif;
+}
+.contact-us-btn {
+  margin-left: calc(70 / 16 * 1vw);
+  height: auto;
+  width: calc(625 / 16 * 1vw);
+  display: flex;
+}
+.us-img-heading {
+  width: auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 575px) {
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-us-heading {
+    display: none;
+  }
+  .contact-us-img > img {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-left: calc(-110 / 5.75 * 1vw);
+    width: calc(358 / 5.75 * 1vw);
+    height: calc(322 / 5.75 * 1vw);
+  }
+  .contact-us-text p {
+    width: calc(480 / 5.75 * 1vw);
+    font-family: Poppins, sans-serif;
+    font-size: calc(16 / 5.75 * 1vw);
+    font-weight: 400;
+    line-height: calc(24 / 5.75 * 1vw);
+    text-align: center;
+  }
+  .contact-us-btn {
+    width: calc(450 / 5.75 * 1vw);
+  }
+  .contact-us-btn > input {
+    width: 50%;
+  }
+  .contact-us-btn > button {
+    width: 50%;
+  }
+  .us-img-heading {
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-size: calc(48 / 16 * 1vw);
+    font-weight: 600;
+    line-height: calc(80 / 16 * 1vw);
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .contact-us-img > img {
+    height: calc(253 / 3.2 * 1vw);
+    width: calc(230 / 3.2 * 1vw);
+    /* border: 2px solid red; */
+  }
+  .us-img-heading {
+    text-align: center;
+    width: calc(135 / 3.2 * 1vw);
+    font-family: Poppins, sans-serif;
+    font-size: calc(24 / 3.2 * 1vw);
+    font-weight: 600;
+    line-height: calc(80 / 3.2 * 1vw);
+  }
+  .contact-us-text p {
+    font-family: Poppins, sans-serif;
+    font-size: calc(14 / 3.2 * 1vw);
+    font-weight: 400;
+    line-height: calc(21 / 3.2 * 1vw);
+    text-align: center;
+  }
+  .contact-us-btn input {
+    font-family: Poppins, sans-serif;
+    font-size: calc(12 / 3.2 * 1vw);
+    font-weight: 400;
+    line-height: calc(18 / 3.2 * 1vw);
+    width: calc(291 / 3.2 * 1vw);
+    height: calc(50 / 3.2 * 1vw);
+    border-radius: calc(10 / 3.2 * 1vw);
+    flex-direction: column;
+  }
+  .contact-us-btn button {
+    font-family: Poppins, sans-serif;
+    font-size: calc(14 / 3.2 * 1vw);
+    font-weight: 500;
+    line-height: calc(21 / 3.2 * 1vw);
+    width: calc(291 / 3.2 * 1vw);
+    height: calc(50 / 3.2 * 1vw);
+    border-radius: calc(10 / 3.2 * 1vw);
+  }
+  .contact-us-btn {
+    justify-content: space-between;
+    gap: calc(20 / 3.2 * 1vw);
+    align-items: center;
+    flex-direction: column;
+    width: calc(350 / 3.2 * 1vw);
+    /* border: 2px solid red; */
+  }
+
+  .contact-us-text {
+    height: calc(300 / 3.2 * 1vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+}

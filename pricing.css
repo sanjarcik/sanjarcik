@@ -1,0 +1,183 @@
+.pricing-heading {
+  width: 100%;
+  height: auto;
+  margin-bottom: calc(83 / 16 * 1vw);
+  margin-top: calc(229 / 16 * 1vw);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: calc(30 / 16 * 1vw);
+  font-weight: 600;
+  line-height: calc(80 / 16 * 1vw);
+}
+.pricing {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pricing-card {
+  width: calc(410 / 16 * 1vw);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.pricing-card > h3 {
+  font-family: Poppins, sans-serif;
+  text-align: start;
+  font-size: calc(30 / 16 * 1vw);
+  font-weight: 600;
+  line-height: calc(48 / 16 * 1vw);
+}
+.pricing-card img {
+  height: calc(311 / 16 * 1vw);
+  object-fit: cover;
+}
+.pricing-card-btn p {
+  width: calc(377 / 16 * 1vw);
+  font-family: Poppins, sans-serif;
+  font-size: calc(20 / 16 * 1vw);
+  margin: 0;
+  font-weight: 400;
+  line-height: calc(30 / 16 * 1vw);
+  color: grey;
+}
+.pricing-card-btn {
+  width: 100%;
+  height: calc(200 / 16 * 1vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.pricing-card-btn > button {
+  width: calc(198 / 16 * 1vw);
+  border-radius: calc(10 / 16 * 1vw);
+  height: calc(45 / 16 * 1vw);
+  font-family: Poppins, sans-serif;
+  font-size: calc(18 / 16 * 1vw);
+  font-weight: 400;
+  line-height: calc(27 / 16 * 1vw);
+  border: none;
+}
+
+.pricing-card-btn > button > span:first-child {
+  font-family: Poppins, sans-serif;
+  font-size: calc(30 / 16 * 1vw);
+  font-weight: 400;
+  line-height: calc(45 / 16 * 1vw);
+  color: black;
+}
+.pricing-card-btn > button > span:last-child {
+  color: grey;
+  font-family: Poppins, sans-serif;
+}
+
+@media only screen and (max-width: 575px) {
+  .pricing-card {
+    height: auto;
+    width: 100%;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .pricing-card-btn {
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    /* border: 2px solid black; */
+  }
+  .pricing {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .pricing-heading > h1 {
+    height: calc(100 / 5.75 * 1vw);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: calc(30 / 5.75 * 1vw);
+    font-weight: 600;
+    line-height: calc(80 / 5.75 * 1vw);
+    /* border: 2px solid black; */
+  }
+  .pricing-card > h3 {
+    font-family: Poppins, sans-serif;
+    font-size: calc(18 / 5.75 * 1vw);
+    font-weight: 600;
+    line-height: calc(28 / 5.75 * 1vw);
+  }
+
+  .pricing-card img {
+    width: calc(320 / 5.75 * 1vw);
+    height: calc(248 / 5.75 * 1vw);
+    object-fit: cover;
+    /* border: 2px solid red; */
+  }
+  .pricing-card-btn p {
+    font-family: Poppins, sans-serif;
+    font-size: calc(14 / 5.75 * 1vw);
+    font-weight: 400;
+    width: 60%;
+    line-height: calc(19.5 / 5.75 * 1vw);
+    text-align: center;
+  }
+  .pricing-card-btn > button > span:first-child {
+    font-family: Poppins, sans-serif;
+    font-size: calc(18 / 5.75 * 1vw);
+    font-weight: 400;
+    line-height: calc(27 / 5.75 * 1vw);
+  }
+  .pricing-card-btn > button > span:last-child {
+    font-family: Poppins, sans-serif;
+    font-size: calc(14 / 5.75 * 1vw);
+    font-weight: 400;
+    /* border: 2px solid red; */
+    line-height: calc(21 / 5.75 * 1vw);
+  }
+  .pricing-card-btn > button {
+    width: calc(245 / 5.75 * 1vw);
+    height: calc(45 / 5.75 * 1vw);
+    /* border: 2px solid black; */
+  }
+}
+@media only screen and (max-width: 320px) {
+  .pricing {
+    height: auto;
+  }
+  .pricing-card img {
+    width: calc(248 / 3.2 * 1vw);
+    height: auto;
+  }
+  .pricing-heading > h1 {
+    height: auto;
+    font-family: Poppins, sans-serif;
+    font-size: calc(24 / 3.2 * 1vw);
+    font-weight: 600;
+    line-height: calc(80 / 3.2 * 1vw);
+    /* border: 2px solid green; */
+    text-align: center;
+  }
+  .pricing-card {
+    height: auto;
+  }
+
+  .pricing-card h3 {
+    font-family: Poppins, sans-serif;
+    font-size: calc(18 / 3.2 * 1vw);
+    font-weight: 600;
+    line-height: calc(28 / 3.2 * 1vw);
+  }
+  .pricing-card-btn p {
+    font-family: Poppins, sans-serif;
+    font-size: calc(13 / 3.2 * 1vw);
+    font-weight: 400;
+    line-height: calc(19.5 / 3.2 * 1vw);
+    text-align: center;
+  }
+  .pricing-card-btn button {
+    width: calc(170 / 3.2 * 1vw);
+    height: calc(37 / 3.2 * 1vw);
+  }
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+header {
+  height: auto;
+  padding-top: 3.4vw;
+  margin-bottom: calc(103 / 16 * 1vw);
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  font-family: Poppins, sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 5vw;
+}
